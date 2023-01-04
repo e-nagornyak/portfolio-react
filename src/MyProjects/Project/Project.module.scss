@@ -1,4 +1,5 @@
 @import "../../common/styles/scss/variables";
+@import "../../common/styles/scss/mixins";
 
 .project {
   font-family: 'Josefin Sans', sans-serif;
@@ -56,10 +57,7 @@
     }
 
     .description {
-      font-family: 'Poppins', sans-serif;
-      font-size: 12px;
-      font-weight: 400;
-      line-height: 1.8;
+      @include text('Poppins', 12px, 400, 1.8);
       color: $textColor;
     }
   }
