@@ -1,0 +1,28 @@
+
+.title {
+    margin: 0 0 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 5px;
+    color: #fff;
+    text-transform: capitalize;
+    line-height: 1.2;
+    position: relative;
+}
+
+
+.title::after {
+    content: '';
+    position: absolute;
+    background: white;
+    width: 55px;
+    height: 1px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    bottom: -30px;
+}
+
+.title h2 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 36px;
+}

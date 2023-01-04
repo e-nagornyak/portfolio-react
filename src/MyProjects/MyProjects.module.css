@@ -1,23 +1,25 @@
-.myWorksBlock {
+.myProjectsBlock {
     min-height: 50vh;
-    background-color: gray;
+    background-color: #1f1f20;
     padding: 50px 0;
 }
 
-.myWorksContainer {
-    flex-direction: column;;
+.myProjectsContainer {
+    flex-direction: column;
     justify-content: flex-start;
 }
 
-.title {
-    background-color: darkgrey;
-}
-
 .project {
+    margin-top: 30px;
     border-top: 1px solid;
     border-bottom: 1px solid;
     width: 100%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 1129px) {
+
 }

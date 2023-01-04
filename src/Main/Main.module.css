@@ -1,7 +1,8 @@
 .mainBlock {
-    min-height: 70vh;
+    min-height: 100vh;
     background-color: #ffdee9;
-    padding: 50px 0;
+    display: flex;
+    align-items: center;
 }
 
 .text {

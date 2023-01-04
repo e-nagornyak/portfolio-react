@@ -2,13 +2,14 @@ import React from 'react'
 import styles from './Skills.module.css';
 import styleContainer from '../common/styles/Container.module.css'
 import Skill from "./Skill/Skill";
+import Title from "../common/components/Title/Title";
 
 
 function Skills() {
     return (
         <div className={styles.skillsBlock} id={"skills"}>
             <div className={`${styleContainer.container} ${styles.skillsContainer}`}>
-                <h2 className={styles.title}>My skills:</h2>
+                <Title title={'Skills'}/>
                 <div className={styles.skills}>
                     <Skill
                         img={'https://www.freepnglogos.com/uploads/javascript-png/js-logo-png-5.png'}
