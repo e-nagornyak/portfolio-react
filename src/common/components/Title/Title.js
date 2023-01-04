@@ -1,4 +1,4 @@
-import styles from "./Title.module.css";
+import styles from "./Title.module.scss";
 
 function Title({title}) {
     return <div className={styles.title}>

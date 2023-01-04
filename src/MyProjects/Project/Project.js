@@ -1,13 +1,12 @@
 import React from 'react'
-import styles from './Project.module.css';
+import styles from './Project.module.scss';
 
 
-function Project({img, title, description}) {
+function Project({title, description, style}) {
     return (
         <div className={styles.project}>
-            <div className={styles.image}>
-                <img className={styles.image_logo} src={img} alt=""/>
-                <a className={styles.viewBtn}>View</a>
+            <div className={styles.image} style={style}>
+                <a href={''} className={styles.viewBtn}>View</a>
             </div>
             <div className={styles.projectInfo}>
                 <h3 className={styles.projectTitle}>{title}</h3>
